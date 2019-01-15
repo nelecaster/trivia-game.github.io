@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/dune-background.jpg");
+    background-size: cover;
+}
+
+.time {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}

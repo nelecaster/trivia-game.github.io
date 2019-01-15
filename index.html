@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dune Trivia!</title>
+  <link rel="stylesheet" href="assets\css\style.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets\javascript\app.js"></script>
+  
+</head>
+
+<body>
+
+  <div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">
+            <h1>DUNE TRIVIA!</h1>
+          </div>
+          <div class="card-body">
+            <p class="time">Time Remaining: <span id="time">1:00</span></p>
+            <p class="question">The main character, Paul, belongs to which house?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group1" id="1-1" value="option1">
+              <label class="form-check-label" for="1-1">Harkonnen</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group1" id="1-2" value="option2">
+              <label class="form-check-label" for="1-2">Corrino</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group1" id="1-3" value="option3">
+              <label class="form-check-label" for="1-3">Vernius</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group1" id="1-4" value="option3">
+              <label class="form-check-label" for="1-4">Atreides</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">The collective political entity of all the Great and Minor Houses is called:</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group2" id="2-1" value="option1">
+              <label class="form-check-label" for="2-1">CHOAM</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group2" id="2-2" value="option2">
+              <label class="form-check-label" for="2-2">The Guild</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group2" id="2-3" value="option3">
+              <label class="form-check-label" for="2-3">Great Convention</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group2" id="2-4" value="option3">
+              <label class="form-check-label" for="2-4">Landsraad</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">When the book begins, Paul is how old?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group3" id="3-1" value="option1">
+              <label class="form-check-label" for="3-1">18</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group3" id="3-2" value="option2">
+              <label class="form-check-label" for="3-2">15</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group3" id="3-3" value="option3">
+              <label class="form-check-label" for="3-3">20</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group3" id="3-4" value="option3">
+              <label class="form-check-label" for="3-4">16</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">What is the Emporer's nickname for Leto?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group4" id="4-1" value="option1">
+              <label class="form-check-label" for="4-1">Red Hawk</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group4" id="4-2" value="option2">
+              <label class="form-check-label" for="4-2">Leto</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group4" id="4-3" value="option3">
+              <label class="form-check-label" for="4-3">Leto the Hawk</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group4" id="4-4" value="option3">
+              <label class="form-check-label" for="4-4">Red Duke</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">The lineage of the Atreides can be traced back to the Greeks. Who, specifically,
+              started the house?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group5" id="5-1" value="option1">
+              <label class="form-check-label" for="5-1">Menalaus</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group5" id="5-2" value="option2">
+              <label class="form-check-label" for="5-2">Agamemnon</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group5" id="5-3" value="option3">
+              <label class="form-check-label" for="5-3">Osysseus</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group5" id="5-4" value="option3">
+              <label class="form-check-label" for="5-4">Leto</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">The Padishah Emperor (Shaddam IV in Dune), officially sits on the ________
+              __________ Throne.</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group6" id="6-1" value="option1">
+              <label class="form-check-label" for="6-1">High Kaitain</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group6" id="6-2" value="option2">
+              <label class="form-check-label" for="6-2">High Corrino</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group6" id="6-3" value="option3">
+              <label class="form-check-label" for="6-3">Golden Empire</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group6" id="6-4" value="option3">
+              <label class="form-check-label" for="6-4">Golden Lion</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">Who does Duke Leto send ahead to Arrakis to uncover information about its mysterious
+              inhabitants?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group7" id="7-1" value="option1">
+              <label class="form-check-label" for="7-1">Thufir Hawat</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group7" id="7-2" value="option2">
+              <label class="form-check-label" for="7-2">He goes himself</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group7" id="7-3" value="option3">
+              <label class="form-check-label" for="7-3">Paul Atreides</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group7" id="7-4" value="option3">
+              <label class="form-check-label" for="7-4">Duncan Idaho</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">Complete this quote from Duke Leto regarding his strategy about the military on
+              Arrakis: 'On Caladan we have air and sea power. On Arrakis, we need ________
+              _________'</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group8" id="8-1" value="option1">
+              <label class="form-check-label" for="8-1">sand power</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group8" id="8-2" value="option2">
+              <label class="form-check-label" for="8-2">desert power</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group8" id="8-3" value="option3">
+              <label class="form-check-label" for="8-3">man power</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group8" id="8-4" value="option3">
+              <label class="form-check-label" for="8-4">water power</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">Which person is the first to approach Paul about his importance and of the traitor in
+              the Atreides household?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group9" id="9-1" value="option1">
+              <label class="form-check-label" for="9-1">Shadout Mapes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group9" id="9-2" value="option2">
+              <label class="form-check-label" for="9-2">Stilgar</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group9" id="9-3" value="option3">
+              <label class="form-check-label" for="9-3">Doctor Yeuh</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group9" id="9-4" value="option3">
+              <label class="form-check-label" for="9-4">Duncan Idaho</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="question">The Baron Vladamir Harkonnen's nephews, in order from oldest to youngest are....</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group10" id="10-1" value="option1">
+              <label class="form-check-label" for="10-1">Feyd-Rautha and Rabban</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group10" id="10-2" value="option2">
+              <label class="form-check-label" for="10-2">Farad'n and Rabban</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group10" id="10-3" value="option3">
+              <label class="form-check-label" for="10-3">Rabba and Piter de Vries</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="group10" id="10-4" value="option3">
+              <label class="form-check-label" for="10-4">Rabban and Feyd-Rautha</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="results">
+<div class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-body">
+            <p>Correct:<span class="correct"></span></p>
+            <p>Incorrect:<span class="incorrect"></span></p>
+            <p>Refresh Page to Play Again!</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+</div>
+</body>
+
+</html>
